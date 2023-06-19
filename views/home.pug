@@ -1,0 +1,34 @@
+extends  base.pug
+ 
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+      include  ../static/style.css 
+
+block content 
+    section#introsection
+         div Welcome to Mulahim's Dance Academy 
+         div.small Eat Dance Sleep Repeat 
+    
+    section#missionsection
+         h3 Our mission 
+         div.card 
+            h4 Dance Perfection
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.
+         div.card 
+            h4 Dance the way as you like
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.
+         div.card 
+            h4 Expert teaching
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, debitis numquam.
+            
+
+    section#sponserssection
+         h3 Our Sponsers 
+         div#sponcers 
+           img(src="/static/img/logo1.png")
+           img(src="/static/img/micro.png")
+           img(src="/static/img/pngwing.png")
+           img(src="/static/img/logo4.png")

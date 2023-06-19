@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhai+2&family=ZCOOL+QingKe+HuangYou&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* Navbar Styling */
+
+
+#navbar{
+    background-color: rgb(65 65 61);
+    padding: 16px 4px;
+    font-family: 'Baloo 2', cursive;
+    position: sticky;
+    top:0;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 17px;
+}
+
+#navbar li a:hover{
+    color:rgba(48, 43, 43, 0.829);
+    background-color: rgb(139, 137, 137);
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ /* Intro section styling */
+
+#introsection::before{
+    content: "";
+    background: url('../static/photo-1505527385992-63e06a393342.avif') no-repeat center center/cover;
+    position: absolute;
+    width:100%;
+    height: 69%;
+    z-index: -1;
+    opacity: 1;
+}
+#introsection{
+   height:300px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+   font-size: 35px;
+   flex-direction: column;
+   margin-bottom: 67px;
+}
+
+#introsection div.small{
+    font-size: 32px;
+}
+
+  /* Mission section styling   */
+
+  #missionsection::before{
+    content: "";
+    background: url('../static/images.jpg') no-repeat center center/cover;
+    position: absolute;
+    width:100%;
+    height: 48%;
+    z-index: -1;
+    opacity: 1;
+}
+#missionsection{
+    height:300px;
+    margin-bottom: 1px;
+}
+#missionsection h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 13px;
+    width: 31%;
+    margin: 23px 11px;
+    height: 200px;
+    display: inline-block;
+    background-color: rgb(65 65 61);
+    color: white;
+}
+.card h4{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Baloo 2', cursive;
+}
+.card p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+  /* sponsers section styling  */
+
+#sponserssection{
+    height:300px;
+    background-color: rgba(58, 59, 57, 0.911);
+    color: white;
+}
+
+
+#sponserssection h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+    font-family: 'Baloo 2', cursive;
+}
+#sponcers {
+    height: 120px;
+    margin: auto;
+
+}
+#sponcers img{
+height: 87%;
+margin:50px 35px;
+display: inline-block;
+background: transparent;
+}
+  
+
+  /* Footer section styling */
+
+#footer{
+    height:50px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+

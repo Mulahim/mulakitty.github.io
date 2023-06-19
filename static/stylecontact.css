@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+.myinput{
+    display: block;
+    width:466px;
+    margin:4px auto;
+    text-align: center;
+    padding: 2px 51px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    background-color: black;
+    color: #FFEB3B;
+    border: 2px solid black;
+    border-radius: 22px;
+    outline-style: none;
+    box-shadow: 1px 3px 11px 9px #888888;
+}
+input::placeholder{
+    color: white;
+}
+#footer{
+    position: sticky;
+    bottom: 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px auto;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 2px 11px;
+    border-radius: 22px;
+    outline: 0;
+    box-shadow: 1px 3px 11px 9px #888888;
+}
+.btn:hover{
+    font-size: 14px;
+    background-color: rgb(58, 55, 55);
+    outline: 0;
+}
